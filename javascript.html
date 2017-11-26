@@ -1,11 +1,11 @@
-##Copy Button for Code Block
+<h2>Copy Button for Code Block</h2>
 
-```html
+<pre><code>
 <input type="text" id="input" />
 <button id="copyBtn">Copy</button>
-```
+</pre></code>
 
-```javascript
+<pre><code>
 document.getElementById("copyBtn").onclick = function() {
   document.execCommand('copy');
 }
@@ -19,4 +19,4 @@ document.addEventListener('paste', function(e){
   e.preventDefault(); // default behaviour is to copy any selected text
   console.log(cons);
 });
-```
+</pre></code>
